@@ -1,0 +1,53 @@
+body {
+  background-color: rgba(162, 42, 12, 0.15); /* last value is alpha: 0 (transparent) to 1 (opaque) */
+}
+.Container1 {
+  width: 120px;
+  height: 25px;
+  position: relative;
+  overflow: hidden;
+  background-color: rgba(162, 42, 12, 0.60);
+  position: absolute;
+  top: 150px;
+  left: 400px;
+
+}
+.Youtube {
+  width: 120px;
+  height: 25px;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  text-size-adjust:auto;
+   text-decoration: none;
+  font-size: 20px;
+  color:green;
+  background-color: rgba(0, 0, 0  0.60);
+  border:solid black 2px;
+  position: absolute; 
+  top: 250px;
+  left: 400px;
+
+}
+a:link {
+  color: #000000; /* Blue for unvisited links */
+}
+
+a:visited {
+  color: #800080; /* Purple for visited links */
+}
+
+a:hover {
+  color: #FF0000; /* Red on hover */
+}
+
+a:active {
+  color: #008000; /* Green when active */
+}
+
+a:focus {
+  color: #FFA500; /* Orange when focused */
+}
+.no-underline-link {
+  text-decoration: none;
+}
